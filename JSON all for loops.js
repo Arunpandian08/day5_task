@@ -18,7 +18,7 @@ for(let i = 0; i < title.length; i++) {
 
 //for..in..
 
-let title = [{
+let text = [{
     name : "Arun", 
     message : "hi",
     from : "some where in world",
@@ -28,15 +28,15 @@ let title = [{
     message   : "how are you?",
     from : "but,im here",
 }];
-for (var key in title) {
-    if (title.hasOwnProperty(key)) {
-      console.log(title[key].name);
+for (var key in text) {
+    if (text.hasOwnProperty(key)) {
+      console.log(text[key].name);
     }
 }
 
 // for..of
 
-let title = [{
+let result = [{
     name : "Arun", 
     message : "hi",
     from : "some where in world",
@@ -46,13 +46,13 @@ let title = [{
     message   : "how are you?",
     from : "but,im here",
 }];
-for (const key of title) {
+for (const key of result) {
     console.log(key)
 }
 
 //forEach()
 
-let title = [{
+let answer = [{
     name : "Arun", 
     message : "hi",
     from : "some where in world",
